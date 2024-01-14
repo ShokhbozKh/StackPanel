@@ -4,7 +4,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:WpfApp5"
-    
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="MainWindow"
     Width="400"
@@ -33,25 +32,25 @@
                 Content="c" />
         </StackPanel>
 
-        <StackPanel HorizontalAlignment="Stretch"
+        <StackPanel
             Grid.Row="1"
             Margin="20"
-            >
-            <StackPanel  Orientation="Horizontal" HorizontalAlignment="Center">
-                <Label Content="label"/>
-                <TextBox Width="150"/>
-                <Button Content="go"/>
+            HorizontalAlignment="Stretch">
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                <Label Content="label" />
+                <TextBox Width="150" />
+                <Button Content="go" />
             </StackPanel>
-            <StackPanel  Orientation="Horizontal" HorizontalAlignment="Center">
-                <Label Content="label"/>
-                <TextBox Width="150"/>
-                <Button Content="go"/>
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                <Label Content="label" />
+                <TextBox Width="150" />
+                <Button Content="go" />
             </StackPanel>
-            <StackPanel  Orientation="Horizontal" HorizontalAlignment="Center">
-                <Label Content="label"/>
-                <TextBox Width="150"/>
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                <Label Content="label" />
+                <TextBox Width="150" />
 
-                <Button Content="go"/>
+                <Button Content="go" />
             </StackPanel>
 
 
@@ -68,10 +67,10 @@
                 Width="150"
                 Height="30"
                 Margin="5" />
-            <ComboBox  Width="150">
-                <ComboBoxItem Content="1"/>
-                <ComboBoxItem Content="2"/>
-                <ComboBoxItem Content="3"/>
+            <ComboBox Width="150">
+                <ComboBoxItem Content="1" />
+                <ComboBoxItem Content="2" />
+                <ComboBoxItem Content="3" />
             </ComboBox>
             <TextBox
                 Width="150"
